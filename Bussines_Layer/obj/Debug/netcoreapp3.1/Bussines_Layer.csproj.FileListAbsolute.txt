@@ -1,0 +1,15 @@
+C:\Users\sagir\source\repos\Bussines_Layer\bin\Debug\netcoreapp3.1\Bussines_Layer.deps.json
+C:\Users\sagir\source\repos\Bussines_Layer\bin\Debug\netcoreapp3.1\Bussines_Layer.dll
+C:\Users\sagir\source\repos\Bussines_Layer\bin\Debug\netcoreapp3.1\Bussines_Layer.pdb
+C:\Users\sagir\source\repos\Bussines_Layer\bin\Debug\netcoreapp3.1\Models_Layer.dll
+C:\Users\sagir\source\repos\Bussines_Layer\bin\Debug\netcoreapp3.1\Repo_Layer.dll
+C:\Users\sagir\source\repos\Bussines_Layer\bin\Debug\netcoreapp3.1\Models_Layer.pdb
+C:\Users\sagir\source\repos\Bussines_Layer\bin\Debug\netcoreapp3.1\Repo_Layer.pdb
+C:\Users\sagir\source\repos\Bussines_Layer\obj\Debug\netcoreapp3.1\Bussines_Layer.csproj.AssemblyReference.cache
+C:\Users\sagir\source\repos\Bussines_Layer\obj\Debug\netcoreapp3.1\Bussines_Layer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sagir\source\repos\Bussines_Layer\obj\Debug\netcoreapp3.1\Bussines_Layer.AssemblyInfoInputs.cache
+C:\Users\sagir\source\repos\Bussines_Layer\obj\Debug\netcoreapp3.1\Bussines_Layer.AssemblyInfo.cs
+C:\Users\sagir\source\repos\Bussines_Layer\obj\Debug\netcoreapp3.1\Bussines_Layer.csproj.CoreCompileInputs.cache
+C:\Users\sagir\source\repos\Bussines_Layer\obj\Debug\netcoreapp3.1\Bussines_Layer.csproj.CopyComplete
+C:\Users\sagir\source\repos\Bussines_Layer\obj\Debug\netcoreapp3.1\Bussines_Layer.dll
+C:\Users\sagir\source\repos\Bussines_Layer\obj\Debug\netcoreapp3.1\Bussines_Layer.pdb

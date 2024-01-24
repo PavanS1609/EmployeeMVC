@@ -1,0 +1,79 @@
+﻿@model IEnumerable<Models_Layer.EmployeeModel>
+
+@{
+    ViewData["Title"] = "GetEmployeeList";
+}
+<link rel="stylesheet" href="~/css/GetEmployeeList.css" />
+
+
+<h1>GetEmployeeList</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Emp_Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Emp_Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Gender)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Departement)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Salary)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Image)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StartDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Notes)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Emp_Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Emp_Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Gender)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Departement)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Salary)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Image)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StartDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Notes)
+            </td>
+            <td>
+                    @Html.ActionLink("Edit", "UpdatedEmployeeDetails", new { Emp_Id =item.Emp_Id  }) |
+                @Html.ActionLink("Details", "GetEmployeeById", new {  Emp_Id =  item.Emp_Id  }) |
+                    @Html.ActionLink("Delete", "DeleteEmployeeById", new {  Emp_Id = item.Emp_Id  })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
